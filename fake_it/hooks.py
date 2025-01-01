@@ -85,6 +85,12 @@ app_license = "mit"
 # before_install = "fake_it.install.before_install"
 # after_install = "fake_it.install.after_install"
 
+after_migrate = [
+    "fake_it.fixtures.anonymize_employees.anonymize_data",
+    "fake_it.fixtures.update_users.update_users",
+]
+
+
 # Uninstallation
 # ------------
 
