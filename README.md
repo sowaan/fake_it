@@ -12,6 +12,7 @@ bench get-app https://github.com/sowaan/fake_it --branch main
 bench --site [your.site.name] install-app fake_it
 bench pip install -e apps/fake_it
 bench --site [your.site.name] migrate
+```
 
 #### License
 
